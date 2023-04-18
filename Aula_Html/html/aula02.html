@@ -10,14 +10,14 @@
 </head>
 <body>
 <form>
-<fieldset id="usario"> <legend>Identificação do Usuário</legend>
+<fieldset  id="usuario"> <legend>Identificação do Usuário</legend>
     <p>Nome: <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome completo"/></p>
     <p>Senha: <input type="password" name="tSenha" id="cSenha" size="20" maxlength="20" placeholder="Digite sua senha"/></p>
     <p>E-mail: <input type="email" name="tMail" id="cMail" size="20" maxlength="40"></p>
     <fieldset id="sexo"><legend>Sexo</legend>
-     -Masculino
-     -Feminino</fieldset>
-</fieldset>
+     <input type="radio" name="tSexo" id="cMasc"/> Masculino<label for="cMasc"></label>
+     <input type="radio" name="tSexo"id="cFem" />Feminino <label for="cFem"></label>
+    </fieldset>
 <fieldset id="endereco"><legend>Endereço do Usuário</legend>
     Logadouro:
     Estado:
